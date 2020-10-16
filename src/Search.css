@@ -1,0 +1,51 @@
+.search {
+  position: absolute;
+  top: 35px;
+  left: 25%;
+  width: 100%;
+  z-index: 1000;
+}
+
+.search > h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 380px;
+  left: 10px;
+  background-color: white;
+  width: 559px;
+  padding: 10px;
+}
+.search__peopleIcon {
+  margin-right: 30px;
+}
+.search > input {
+  position: absolute;
+  top: 420px;
+  left: 0;
+  height: 30px;
+  width: 539px;
+  padding: 20px;
+  border: none;
+}
+.search > input:focus {
+  outline-width: 0;
+}
+.search > button {
+  position: absolute;
+  left: 0;
+  top: 480px;
+  text-transform: inherit !important;
+  background-color: #ba9653;
+  color: white;
+  width: 579px;
+  border: none;
+  transition: 0.3s transform ease-in-out;
+}
+
+.search > button:hover {
+  background-color: white;
+  color: #ba9653;
+  font-weight: 900;
+}

@@ -1,0 +1,41 @@
+.banner {
+  position: relative;
+  height: 50vh;
+  background: url('https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/96/95/96959_v6.jpeg')
+    center center;
+}
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ba9653 !important;
+}
+
+.banner__info {
+  background-color: black;
+  color: white;
+  padding-top: 10vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 300px;
+}
+
+.banner__info > button {
+  background-color: #ba9653;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.banner__info > button:hover {
+  background-color: white;
+  color: #ba9653;
+}
+.banner__info > h5 {
+  margin-top: 20px;
+}
